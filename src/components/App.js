@@ -13,7 +13,7 @@ const App = () => {
 
         <br />
         <br />
-        <button type='submit' onclick="sumit()">Submit</button>
+        <button type='submit' onclick={sumit()}>Submit</button>
       </form>
     </div>
   )
