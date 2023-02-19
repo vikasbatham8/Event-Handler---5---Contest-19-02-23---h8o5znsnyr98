@@ -7,13 +7,13 @@ const App = () => {
 
   return (
     <div id="main">
-      <form>
+      <form onsSumit={(event)=>{event.preventDefault()}}>
         <label htmlFor='name'>Name</label>
         <input id="name" type={"text"} />
 
         <br />
         <br />
-        <button type='submit' onclick={sumit()}>Submit</button>
+        <button type='submit' onclick={sumit}>Submit</button>
       </form>
     </div>
   )
