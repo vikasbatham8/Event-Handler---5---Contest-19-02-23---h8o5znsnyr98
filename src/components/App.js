@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <div id="main">
-      <form onsSumit={(event)=>{event.preventDefault()}}>
+      <form onSumit={(event)=>{event.preventDefault()}}>
         <label htmlFor='name'>Name</label>
         <input id="name" type={"text"} />
 
